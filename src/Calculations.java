@@ -13,10 +13,10 @@ public class Calculations {
         return scanVal.nextInt();
     }
     public static void math(int numOne, int numTwo) {
-        System.out.println(numOne + numTwo);
-        System.out.println(numOne - numTwo);
-        System.out.println(numOne * numTwo);
-        System.out.println(Double.valueOf(numOne) / Double.valueOf(numTwo));
-        System.out.println(numOne % numTwo);
+        System.out.println(numOne+" + "+numTwo+" = "+(numOne + numTwo));
+        System.out.println(numOne+" - "+numTwo+" = "+(numOne - numTwo));
+        System.out.println(numOne+" * "+numTwo+" = "+(numOne * numTwo));
+        System.out.println(numOne+" / "+numTwo+" = "+(Double.valueOf(numOne) / Double.valueOf(numTwo)));
+        System.out.println(numOne+" % "+numTwo+" = "+(numOne % numTwo));
     }
 }
